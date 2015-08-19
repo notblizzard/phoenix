@@ -1,0 +1,123 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway);
+* {
+  margin: 0;
+  padding: 0;
+}
+#hero {
+  background-color: #e74c3c;
+  color: #fff;
+  height: 100vh;
+}
+body {
+  font-family: "Raleway", sans-serif;
+}
+#mods {
+  float: right;
+  margin: 20px;
+}
+#mod {
+  border-bottom: 1px solid #27ae60;
+}
+#admin {
+  border-bottom: 1px solid #e74c3c;
+}
+.stickied {
+  background-color: rgba(13,213,252, .4);
+  padding-bottom: 4px;
+}
+.fa {
+  cursor: pointer;
+}
+.menu-bar li {
+  list-style-type: none;
+  display: inline;
+  padding-left: 5px;
+}
+.delete-post {
+  color: #e74c3c;
+  cursor: pointer;
+}
+#title {
+  font-size: 100px;
+}
+.errors li {
+  background-color: #e74c3c;
+  border-radius: 4px;
+  color: #fff;
+  margin: 10px;
+  width: 40%;
+}
+.post {
+  width: 80%;
+  float: left;
+  text-align: left;
+  margin: 10px;
+  padding-left: 100px;
+}
+a {
+  font-size: 16px;
+  text-decoration: none;
+  color: #2980b9;
+}
+.post a {
+  font-size: 20px;
+  text-decoration: none;
+  color: #2980b9;
+}
+.input {
+  border: 1px solid #e74c3c;
+  width: 400px;
+  height: 30px;
+}
+#comment {
+  width: 80%;
+  margin: 5px;
+  display: inline-block;
+  text-align: left;
+  border-bottom: 1px solid #e74c3c;
+  word-break: break-word;
+}
+.userpage-avatar {
+  border-radius: 50%;
+}
+.avatar {
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  float: left;
+}
+.upvotes {
+  color: #27ae60;
+}
+.downvotes {
+  color: #e74c3c;
+}
+textarea {
+  height: 200px !important;
+  width: 500px !important;
+  border: 1px solid #e74c3c;
+  resize: none;
+}
+#latest-comments {
+  display: inline-block;
+}
+.button, a .button {
+  display: inline-block;
+  text-decoration: none;
+  background-color: #e74c3c;
+  box-shadow: 0 4px 0 #c0392b;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  width: 110px;
+  font-size: 14px;
+  position: relative;
+  font-family: "Raleway", sans-serif;
+  padding: 5px;
+}
+.button a {
+  color: #fff;
+}
+span a {
+  font-size: 12px !important;
+}
