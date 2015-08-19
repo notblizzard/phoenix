@@ -66,10 +66,10 @@ return [
 
         'pgsql' => [
             'driver'   => 'pgsql',
-            'host'     => getenv('DB_HOST') || 'localhost',
-            'database' => getenv('DB_DATABASE') || 'phoenix',
-            'username' => getenv('DB_USERNAME') || 'postgres',
-            'password' => getenv('DB_PASSWORD') || '',
+            'host'     => parse_url(getenv('DATABASE_URL'))['host'],
+            'database' => substr(parse_url(getenv('DATABASE_URL'))['path'],  1),
+            'username' => parse_url(getenv('DATABASE_URL'))['user'],
+            'password' => parse_url(getenv('DATABASE_URL'))['pass'],
             'charset'  => 'utf8',
             'prefix'   => '',
             'schema'   => 'public',
