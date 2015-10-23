@@ -3,8 +3,8 @@
 <head>
   <title>Phoenix</title>
   <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
-  <script src="{{asset('js/app.js')}}"></script>
-      <link rel='stylesheet' href='{{asset("css/app.css")}}'>
+  <script src="{{asset('js/app.js', true)}}"></script>
+      <link rel='stylesheet' href='{{asset("css/app.css", true)}}'>
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
 
