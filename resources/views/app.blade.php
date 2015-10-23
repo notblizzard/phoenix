@@ -2,10 +2,10 @@
 <html>
 <head>
   <title>Phoenix</title>
-  <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+  <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
   <script src="{{secure_asset('js/app.js')}}"></script>
-      <link rel='stylesheet' href='{{secure_asset("css/app.css")}}'>
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <link rel='stylesheet' href='{{secure_asset("css/app.css")}}'>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
 
 </head>
